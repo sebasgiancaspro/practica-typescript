@@ -113,3 +113,33 @@ let laPulga: {nombre:string, edad:number, poderes:string[]} = {
     edad: 35,
     poderes: ["Super Fuerza", "Salta Alto"]
 };
+
+
+/*
+Ejemplos de Tipo personalizado de Objetos.
+*/
+
+type Heroe = {
+    nombre:string, 
+    edad:number, 
+    poderes:any[], 
+    getNombre:()=>string
+}
+
+let cisco: Heroe = {
+    nombre:"Francisco Fernandez",
+    edad: 22,
+    poderes: ["Viajar por el tiempo", "Salta de dimencion"],
+    getNombre(){
+        return this.nombre;
+    }
+};
+
+let laPolilla: Heroe = {
+    nombre:"Carlos Cademi",
+    edad: 40,
+    poderes: ["Vuela", "Ensucia"],
+    getNombre(){
+        return this.nombre;
+    }
+};

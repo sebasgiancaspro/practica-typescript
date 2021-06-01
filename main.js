@@ -82,3 +82,19 @@ var laPulga = {
     edad: 35,
     poderes: ["Super Fuerza", "Salta Alto"]
 };
+var cisco = {
+    nombre: "Francisco Fernandez",
+    edad: 22,
+    poderes: ["Viajar por el tiempo", "Salta de dimencion"],
+    getNombre: function () {
+        return this.nombre;
+    }
+};
+var laPolilla = {
+    nombre: "Carlos Cademi",
+    edad: 40,
+    poderes: ["Vuela", "Ensucia"],
+    getNombre: function () {
+        return this.nombre;
+    }
+};

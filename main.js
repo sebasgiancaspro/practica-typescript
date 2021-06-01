@@ -65,3 +65,20 @@ Ejemplos de Array
 var arreglo = [1, 23, 5, 789, 4, 6];
 var malos = ["Gatubela", "Pinguino", "Guason"];
 console.log(malos[0].charAt(0)); /*imprime del array el primer villano y la primer letra*/
+/*
+Ejemplos de Objetos Basicos.
+*/
+var flash = {
+    nombre: "Barry Allem",
+    edad: 24,
+    poderes: ["Correr Rapido", "Viajar en el Tiempo"]
+};
+/*
+Ejemplos de Objetos Especificos.
+En este caso se especifica en la variable de que tipo van a ser
+*/
+var laPulga = {
+    nombre: "Jose Perez",
+    edad: 35,
+    poderes: ["Super Fuerza", "Salta Alto"]
+};

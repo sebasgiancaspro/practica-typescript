@@ -112,3 +112,18 @@ var lobenzo = {
 };
 enviarMision(lobenzo);
 enviarCuartel(lobenzo);
+/*
+Ejemplos de Clase Basica y constructor.
+*/
+var Avenger = /** @class */ (function () {
+    function Avenger(nombre, equipo, nombreReal) {
+        this.puedePelear = false;
+        this.peleasGanadas = 0;
+        this.nombre = nombre;
+        this.equipo = equipo;
+        this.nombreReal = nombreReal;
+    }
+    return Avenger;
+}());
+var antman = Avenger = new Avenger("Antman", "Capi", "Scott Lang");
+console.log(antman);

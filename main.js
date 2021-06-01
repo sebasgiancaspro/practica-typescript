@@ -59,3 +59,9 @@ vengdor = true;
 console.log(vengdor); /*te imprime vengador xq es true*/
 console.log(existe); /*te imprime valor "undefine" o indefinido x ser ANY*/
 console.log(derrotas); /*te imprime valor "undefine" o indefinido x ser ANY*/
+/*
+Ejemplos de Array
+*/
+var arreglo = [1, 23, 5, 789, 4, 6];
+var malos = ["Gatubela", "Pinguino", "Guason"];
+console.log(malos[0].charAt(0)); /*imprime del array el primer villano y la primer letra*/

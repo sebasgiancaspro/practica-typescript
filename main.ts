@@ -38,3 +38,20 @@ if (avengers > villanos) {
 } else {
     console.log("Estamos Muertos");
 }
+
+
+/*
+Ejemplos de String
+*/
+
+let batman:string = "Batman";
+let linternaVerde= 'Linterna Verde';
+let volcanNegro:string = "Volcan Negro";
+
+console.log(batman);
+console.log(linternaVerde);
+console.log(volcanNegro);
+
+let concat:string = `Los heroes son: ${batman}, ${linternaVerde} y ${volcanNegro}`
+
+console.log(concat);

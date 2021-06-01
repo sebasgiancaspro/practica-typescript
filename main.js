@@ -98,3 +98,17 @@ var laPolilla = {
         return this.nombre;
     }
 };
+function enviarMision(xmen) {
+    console.log("Enviando a: " + xmen.nombre);
+}
+;
+function enviarCuartel(xmen) {
+    console.log("Enviar al cuartel a: " + xmen.nombre);
+}
+;
+var lobenzo = {
+    nombre: "Mark Lobito",
+    poder: "Garras metalicas"
+};
+enviarMision(lobenzo);
+enviarCuartel(lobenzo);

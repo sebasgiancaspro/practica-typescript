@@ -143,3 +143,29 @@ let laPolilla: Heroe = {
         return this.nombre;
     }
 };
+
+
+/*
+Ejemplos de Interfaz Basica.
+*/
+
+interface Xmen{
+    nombre:string,
+    poder:string
+}
+
+function enviarMision(xmen : Xmen){
+    console.log("Enviando a: " + xmen.nombre);
+};
+
+function enviarCuartel(xmen : Xmen){
+    console.log("Enviar al cuartel a: " + xmen.nombre);
+};
+
+let lobenzo: Xmen = {
+    nombre:"Mark Lobito",
+    poder: "Garras metalicas"    
+}
+
+enviarMision(lobenzo);
+enviarCuartel(lobenzo);
